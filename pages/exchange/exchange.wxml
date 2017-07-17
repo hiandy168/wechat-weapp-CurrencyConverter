@@ -1,0 +1,33 @@
+<picker bindchange="picker0Change" value="{{index0}}" range="{{bankData}}">
+  <view class="picker">
+    <image src="../../imgs/bank/bank_{{bankAjaxData[index0].num}}.jpg" style="border:1px solid #ececec;width:500rpx;height:140rpx;"></image><text class='selected'> ></text>
+    <view style="font-size:26rpx;line-height:40rpx;margin-left:20rpx;margin-top:18rpx;">备注：100外币兑人民币,此汇率仅供参考。点击货币可以进行各银行牌价数据对比。</view>
+  </view>
+</picker>
+
+
+<view class="contain" bindtap="navTo">
+  <view class='list' wx:for="{{baseData}}" id="{{index}}">
+    <view class="single-zhezhao" id="{{index}}"></view>
+    <view class="name">
+      <text>{{item.name}}<text style="color: #888;">></text></text>
+      <text style="font-size:26rpx;font-weight:100;">{{item.time}}</text>
+    </view>
+    <view class="">
+      <text>钞买价</text>
+      <text style="float:right">{{item.mBuyPri}}</text>
+    </view>
+    <view class="">
+      <text>汇买价</text>
+      <text style="float:right">{{item.fBuyPri}}</text>
+    </view>
+    <view class="">
+      <text>钞卖价</text>
+      <text style="float:right">{{item.mSellPri}}</text>
+    </view>
+    <view class="">
+      <text>汇卖价</text>
+      <text style="float:right">{{item.fSellPri}}</text>
+    </view>
+  </view>
+</view>

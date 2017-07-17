@@ -1,0 +1,32 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/exchange/exchange",
+        "pages/test/test",
+        "pages/paring/paring"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#1A8CFF",
+        "navigationBarTitleText": "好运贴全球汇率换算助手",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#eeeeee"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "换算",
+                "iconPath": "imgs/tabBar-1.jpg",
+                "selectedIconPath": "imgs/tabBar-2.jpg"
+            },
+            {
+                "pagePath": "pages/exchange/exchange",
+                "text": "牌价",
+                "iconPath": "imgs/tabBar-5.jpg",
+                "selectedIconPath": "imgs/tabBar-6.jpg"
+            }
+        ]
+    }
+}

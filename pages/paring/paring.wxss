@@ -1,0 +1,50 @@
+.title {
+  line-height: 120rpx;
+  display: flex;
+  justify-content: center;
+  font-size: 36rpx;
+}
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #777;
+  text-align: center;
+  line-height: 80rpx;
+  background: #fff;
+  font-size: 30rpx;
+}
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 25%;
+  color: #777;
+}
+.on {
+  color: #338FFF;
+  font-weight: bold;
+  border-bottom: 5rpx solid #338FFF;
+}
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin-top:20rpx;
+  background: #fff;
+}
+
+
+.contain {
+  padding: 28rpx 35rpx;
+  font-size: 28rpx;
+  background: #fff;
+}
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx 0;
+}
+.progress-text-left {
+  color: #999;
+}

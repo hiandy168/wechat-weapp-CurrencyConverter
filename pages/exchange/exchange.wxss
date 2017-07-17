@@ -1,0 +1,99 @@
+.picker {
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 10rpx 20rpx;
+  align-items: center;
+}
+
+.contain {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  clear: both;
+}
+
+.list {
+  background: #fff;
+  width: 310rpx;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 10rpx;
+  margin-top: 40rpx;
+  position: relative;
+}
+.single-zhezhao{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.list .name {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  background: #74bccc;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: bold;
+  text-align: center;
+}
+
+.zhezhao-huise {
+  width: 100%;
+  height: 50%;
+  position: fixed;
+  top: 0;
+  background: #333;
+  opacity: 0.8;
+  z-index: 1000;
+}
+
+.zhezhao-shiti {
+  width: 100%;
+  height: 50%;
+  position: fixed;
+  bottom: 0px;
+  background: #fff;
+  opacity: 1;
+  text-align: center;
+}
+
+.zhezhao-shiti .zhezhao-confirm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zhezhao-shiti .zhezhao-confirm text {
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  color: #999;
+  text-align: center;
+}
+
+.zhezhao-shiti .zhezhao-confirm text:last-child {
+  color: #48c23d;
+}
+
+.zhezhao-shiti picker-view {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  color: black;
+}
+.selected{
+    font-weight: bold;
+    color: #aaa;
+    display: block;
+    margin-left: 5px;
+}
+.smallSelected{
+    font-size: 26rpx;
+}

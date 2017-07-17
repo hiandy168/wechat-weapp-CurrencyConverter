@@ -1,0 +1,71 @@
+<!--index.wxml-->
+
+<!--选项卡：http://blog.csdn.net/qq_31383345/article/details/52900835-->
+<view class="logo">
+  <image style="width: 160rpx; height: 60rpx; background-color: #eeeeee; vertical-align: middle;margin-right:20rpx;" mode="scaleToFill" src="../../imgs/logo.gif"></image>
+  <text style="">官方出品</text>
+</view>
+
+<view>
+  <view class="num-import">
+
+    <picker bindchange="picker0Change" value="{{index0}}" range="{{countryData}}" style="width:200rpx;">
+      <view class="picker">
+        <image src="../../imgs/countries/country_{{countryAjaxData[index0].code}}.jpg" style="border:1px solid #ececec;width:200rpx;height:120rpx;"></image>
+        币种:{{countryData[index0]}}<text class='selected'> ></text>
+      </view>
+    </picker>
+
+    <view class="" style="width:360rpx;text-align: right;">
+      <input bindinput="bindKeyInput" bindfocus='clear' type="digit" value="{{inputNumber}}" placeholder="" placeholder-style="font-size:40rpx;color:#cecece;" style="height:120rpx; font-size:56rpx;" />
+      <view style="text-align: right;">
+        <text class='buy-in'>买入</text>
+        {{countryData[index0]}}
+      </view>
+      <!--单位-->
+    </view>
+  </view>
+
+  <view class="num-export">
+    <picker bindchange="picker1Change" value="{{index1}}" range="{{countryData}}" style="width:200rpx;">
+      <view class="picker">
+        <image src="../../imgs/countries/country_{{countryAjaxData[index1].code}}.jpg" style="border:1px solid #ececec;width:200rpx;height:120rpx;"></image>
+        币种:{{countryData[index1]}}<text class='selected'> ></text>
+      </view>
+    </picker>
+
+    <view class="" style="width:360rpx;text-align:right;">
+      <input bindinput="bindKeyInput1" bindfocus='clear' type="digit" value="{{exportNumber}}" placeholder="" style=" height:120rpx;font-size:56rpx;" />
+      <view style="text-align: right;">
+        <text class='buy-in'>支付</text>
+        {{countryData[index1]}}
+      </view>
+    </view>
+  </view>
+</view>
+
+<view style='background:#fff;margin-top:40rpx;padding: 20rpx;'>
+  <view class="huobidui-title">
+    <view>实时货币对</view>
+
+    <picker bindchange="picker2Change" value="{{index2}}" range="{{countryData}}" >
+      <view class="picker">
+        1.00 {{countryData[index2]}} <text class='selected'>></text>
+      </view>
+    </picker>
+
+  </view>
+  <view class="huobidui-contain">
+    <view class='huobidui-list' wx:for="{{huobiduiData}}">
+      <view style='align-items:flex-start;'>{{item.waihuichanpin_tite}}</view>
+      <view class="">
+        <text>{{item.waihuichanpin_zuixin}}</text>
+        <text style="font-size:26rpx;display:block;color:#999;">{{item.waihuichanpin_time}}</text>
+      </view>
+      <view class="{{item.waihuichanpin_change>0 ? 'red' : 'green'}}">
+        <text>{{item.waihuichanpin_change}}</text>
+        <text style="font-size:26rpx;display:block;">{{item.waihuichanpin_fudu}}</text>
+      </view>
+    </view>
+  </view>
+</view>

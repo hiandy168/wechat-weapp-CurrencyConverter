@@ -1,0 +1,70 @@
+<view class="title">{{urlName}}/人民币</view>
+
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">钞买价</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">汇买价</view>
+  <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">钞卖价</view>
+  <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">汇卖价</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:1050rpx" bindchange="bindChange">
+
+  <swiper-item>
+    <view class="contain" wx:for="{{processData}}">
+      <view class="progress-list">
+        <progress percent="{{item[6]}}" activeColor="#338FFF" stroke-width="12" active />
+        <view class="progress-text">
+          <view class="progress-text-left">
+            <view>{{item[0]}}</view>
+            <view>{{item[1]}}</view>
+          </view>
+          <view>{{item[2]}}</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+
+  <swiper-item>
+    <view class="contain" wx:for="{{processData}}">
+      <view class="progress-list">
+        <progress percent="{{item[7]}}" activeColor="#338FFF" stroke-width="12" active />
+        <view class="progress-text">
+          <view class="progress-text-left">
+            <view>{{item[0]}}</view>
+            <view>{{item[1]}}</view>
+          </view>
+          <view>{{item[3]}}</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+
+  <swiper-item>
+    <view class="contain" wx:for="{{processData}}">
+      <view class="progress-list">
+        <progress percent="{{item[8]}}" activeColor="#338FFF" stroke-width="12" active />
+        <view class="progress-text">
+          <view class="progress-text-left">
+            <view>{{item[0]}}</view>
+            <view>{{item[1]}}</view>
+          </view>
+          <view>{{item[4]}}</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+
+  <swiper-item>
+    <view class="contain" wx:for="{{processData}}">
+      <view class="progress-list">
+        <progress percent="{{item[9]}}" activeColor="#338FFF" stroke-width="12" active />
+        <view class="progress-text">
+          <view class="progress-text-left">
+            <view>{{item[0]}}</view>
+            <view>{{item[1]}}</view>
+          </view>
+          <view>{{item[5]}}</view>
+        </view>
+      </view>
+    </view>
+  </swiper-item>
+</swiper>
