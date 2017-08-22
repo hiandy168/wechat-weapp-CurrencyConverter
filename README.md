@@ -1,31 +1,31 @@
-## Î¢ĞÅĞ¡³ÌĞò£ººÃÔËÌùÈ«Çò»ãÂÊ»»ËãÖúÊÖ
+## å¾®ä¿¡å°ç¨‹åºï¼šå¥½è¿è´´å…¨çƒæ±‡ç‡æ¢ç®—åŠ©æ‰‹
 
 
-## Èí¼ş½ØÍ¼£º
-![Í¼1](imgs/md/QQÍ¼Æ¬20170717185602.png)  ![Í¼2](imgs/md/QQÍ¼Æ¬20170717185609.png)  ![Í¼3](imgs/md/QQÍ¼Æ¬20170717185614.png)
+## è½¯ä»¶æˆªå›¾ï¼š
+![å›¾1](imgs/md/QQå›¾ç‰‡20170717185602.png)  ![å›¾2](imgs/md/1.gif)  ![å›¾3](imgs/md/QQå›¾ç‰‡20170717185614.png)
 
 
-## ¹¦ÄÜµã£º
-* view¡¢textµÈ±êÇ©µÄ»ù±¾ÔËÓÃ
-* wxssµÄ»ù±¾ÔËÓÃ
-* thisµÄÖ¸ÏòÔËÓÃ
-* ÁĞ±íÊ½äÖÈ¾Êı¾İ
-* ´ø²ÎÊıÒ³ÃæÌø×ª
-* picker±êÇ©µÄÊ¹ÓÃ
-* ×Ô¶¨Òåº¯ÊıºÍµ÷È¡
-* wx.request()ÇëÇóºóÌ¨Êı¾İµÄÔËÓÃ
-* Òì²½ÇëÇó¶à¸öÊı¾İµÄÔËÓÃ
-* µÈµÈ
+## åŠŸèƒ½ç‚¹ï¼š
+* viewã€textç­‰æ ‡ç­¾çš„åŸºæœ¬è¿ç”¨
+* wxssçš„åŸºæœ¬è¿ç”¨
+* thisçš„æŒ‡å‘è¿ç”¨
+* åˆ—è¡¨å¼æ¸²æŸ“æ•°æ®
+* å¸¦å‚æ•°é¡µé¢è·³è½¬
+* pickeræ ‡ç­¾çš„ä½¿ç”¨
+* è‡ªå®šä¹‰å‡½æ•°å’Œè°ƒå–
+* wx.request()è¯·æ±‚åå°æ•°æ®çš„è¿ç”¨
+* å¼‚æ­¥è¯·æ±‚å¤šä¸ªæ•°æ®çš„è¿ç”¨
+* ç­‰ç­‰
 
 
-## É¨ÂëÌåÑé£º
-![Í¼1](imgs/md/gh_66ad3ba61463_258.jpg)  ![Í¼2](imgs/md/aaaa.jpg)
+## æ‰«ç ä½“éªŒï¼š
+![å›¾1](imgs/md/gh_66ad3ba61463_258.jpg)  ![å›¾2](imgs/md/aaaa.jpg)
 
 
-## Setup£º
-ÏÂÔØ°²×°[Wechat DEV Tools](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html), ²¢µ¼Èë[ÏîÄ¿](https://github.com/jacksplwxy/wechat-weapp-CurrencyConverter.git)
+## Setupï¼š
+ä¸‹è½½å®‰è£…[Wechat DEV Tools](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html), å¹¶å¯¼å…¥[é¡¹ç›®](https://github.com/jacksplwxy/wechat-weapp-CurrencyConverter.git)
 
 
-### DemoÓÃÓÚÑ§Ï°½»Á÷, ×ªÔØÇë×¢Ã÷³ö´¦
+### Demoç”¨äºå­¦ä¹ äº¤æµ, è½¬è½½è¯·æ³¨æ˜å‡ºå¤„
 
 
